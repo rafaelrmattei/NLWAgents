@@ -32,7 +32,6 @@ A aplicação permite a criação de salas, onde os participantes podem enviar �
 
 ### Backend
 - `npm run dev` — inicia o servidor em modo desenvolvimento
-- `npm run build` — gera build de produção
 - `npm run start` — inicia o servidor em produção
 - `npm run db:generate` — gera as entidades/migrations do banco de dados (Drizzle)
 - `npm run db:migrate` — executa as migrations do banco de dados (Drizzle)
