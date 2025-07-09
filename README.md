@@ -2,6 +2,10 @@
 
 Projeto desenvolvido durante a Next Level Week (NLW) da [Rocketseat](https://www.rocketseat.com.br/). O "Agents" é uma aplicação fullstack composta por um backend em Node.js (Fastify) e um frontend em React (Vite), permitindo a criação e gerenciamento de salas e perguntas em tempo real.
 
+O diferencial do projeto é a integração com a IA Gemini (Google), utilizada para:
+- Gerar texto a partir de audio
+- Servir de base para respostas automáticas às perguntas feitas nas salas
+
 ## ✨ Tecnologias Utilizadas
 
 
