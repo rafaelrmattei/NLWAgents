@@ -12,7 +12,7 @@ A aplicação permite a criação de salas, onde os participantes podem enviar �
 - Gemini AI (Google)
 - Node.js
 - Fastify
-- Drizzle ORM
+- Drizzle
 - TypeScript
 - Docker
 - Postgres
