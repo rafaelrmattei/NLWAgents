@@ -1,43 +1,52 @@
-# Agents - NLW Rocketseat
+# Agents – NLW Rocketseat
 
-Projeto desenvolvido durante a vigésima edição da Next Level Week (NLW) da Rocketseat.
-"Agents" é uma aplicação fullstack composta por um backend em Node.js com Fastify e um frontend em React com Vite.
+Project developed during the 20th edition of **Next Level Week (NLW)** by Rocketseat.  
+**"Agents"** is a fullstack application composed of a backend built with **Node.js** and **Fastify**, and a frontend using **React** and **Vite**.
 
-A aplicação permite a criação de salas, onde os participantes podem enviar áudios que são automaticamente transcritos. Esses trechos transcritos formam o contexto da conversa, que é utilizado pela IA Gemini, da Google, para responder perguntas enviadas por texto de forma inteligente e contextualizada.
+The app allows the creation of rooms where participants can send **voice messages**, which are automatically transcribed. These transcriptions form the **context of the conversation**, which is then used by **Google's Gemini AI** to generate intelligent and contextual responses to text-based questions.
 
-## ✨ Tecnologias Utilizadas
+---
 
+## ✨ Technologies Used
 
-### Backend (server)
+### 🔧 Backend (`/server`)
 - Gemini AI (Google)
 - Node.js
 - Fastify
-- Drizzle
+- Drizzle ORM
 - TypeScript
 - Docker
-- Postgres
+- PostgreSQL
 
-### Frontend (web)
+### 💻 Frontend (`/web`)
 - React
 - Vite
 - TypeScript
-- Shadcn
+- Shadcn UI
 
-## 🚀 Requisitos
-- [Node.js](https://nodejs.org/) >= 18.x
-- [npm](https://www.npmjs.com/) >= 9.x
+---
+
+## 🚀 Requirements
+
+- [Node.js](https://nodejs.org/) >= 18.x  
+- [npm](https://www.npmjs.com/) >= 9.x  
 - [Docker](https://www.docker.com/)
 
-## 📝 Comandos Úteis
+---
 
-### Backend
-- `npm run dev` — inicia o servidor em modo desenvolvimento
-- `npm run start` — inicia o servidor em produção
-- `npm run db:generate` — gera as entidades/migrations do banco de dados (Drizzle)
-- `npm run db:migrate` — executa as migrations do banco de dados (Drizzle)
-- `npm run db:seed` — executa o seed do banco de dados
+## 📝 Useful Commands
 
-### Frontend
-- `npm run dev` — inicia o frontend em modo desenvolvimento
-- `npm run build` — gera build de produção
-- `npm run preview` — visualiza build de produção localmente
+### 📦 Backend
+
+```bash
+npm run dev        # Start the development server
+npm run start      # Start the production server
+npm run db:generate # Generate entities/migrations (Drizzle)
+npm run db:migrate # Run database migrations (Drizzle)
+npm run db:seed    # Seed the database
+
+### 💻 Frontend
+
+npm run dev        # Start the frontend in development mode
+npm run build      # Build the frontend for production
+npm run preview    # Preview the production build locally
