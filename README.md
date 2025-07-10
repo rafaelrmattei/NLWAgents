@@ -38,7 +38,6 @@ The app allows the creation of rooms where participants can send **voice message
 
 ### 📦 Backend
 
-```bash
 npm run dev        # Start the development server
 npm run start      # Start the production server
 npm run db:generate # Generate entities/migrations (Drizzle)
